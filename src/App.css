@@ -10,7 +10,7 @@
   font-family: wheaton;
   font-style: oblique;
   color: rgb(126, 255, 115);
-  background-image: url('./red-background.png');
+  background: url('./red-background.png') no-repeat center center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
