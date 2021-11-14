@@ -39,7 +39,7 @@ const Register = ({checkLogin}) => {
               
 
               const submitRegister = () => {
-                     fetch('http://localhost:3002/register', {
+                     fetch('https://stark-hollows-81053.herokuapp.com/register', {
                        method: 'post',
                        headers: {'Content-Type': 'application/json'},
                        body: JSON.stringify({

@@ -16,7 +16,7 @@ const Login = ({ checkLogin }) => {
     };
   
     const submitLogin = () => {
-      fetch('http://localhost:3002/login', {
+      fetch('https://stark-hollows-81053.herokuapp.com/login', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({         

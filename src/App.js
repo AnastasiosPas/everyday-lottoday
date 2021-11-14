@@ -23,7 +23,7 @@ function App() {
  // let history = useHistory();
 
   // useEffect(() => {
-  //   fetch('http://localhost:3002')
+  //   fetch('https://stark-hollows-81053.herokuapp.com')
   //   .then(response => response.json() )
   //   .then((response) => console.log("this is the APP GET response", response))
   // } )

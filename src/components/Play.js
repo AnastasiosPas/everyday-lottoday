@@ -23,7 +23,7 @@ const Play = ({loginCheck}) => {
 
     const payPayPal = () => {
         if(loginCheck()) {
-            fetch('http://localhost:3002/play', {
+            fetch('https://stark-hollows-81053.herokuapp.com/play', {
             method: 'put',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -34,7 +34,7 @@ const Play = ({loginCheck}) => {
         .then(response => response.json())
        .then(() => {
         let lotsTotal = 0;
-        fetch('http://localhost:3002/')
+        fetch('https://stark-hollows-81053.herokuapp.com/')
         .then(response => response.json())
         .then(data => {
             console.log("data of Play", data);

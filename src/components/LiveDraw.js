@@ -13,7 +13,7 @@ const LiveDraw = () => {
 
     useEffect(() => { 
         let lotsTotal = 0;
-                fetch('http://localhost:3002/')
+                fetch('https://stark-hollows-81053.herokuapp.com/')
                 .then(response => response.json())
                 .then(data => {
                     data.forEach( user => {
