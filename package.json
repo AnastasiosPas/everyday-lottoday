@@ -44,11 +44,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnastasiosPas/everyday-boatday.git"
+    "url": "git+https://github.com/AnastasiosPas/everyday-lottoday.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnastasiosPas/everyday-boatday/issues"
-  }
+    "url": "https://github.com/AnastasiosPas/everyday-lottoday/issues"
+  },
+  "homepage": "https://github.com/AnastasiosPas/everyday-lottoday#readme"
 }
