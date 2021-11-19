@@ -36,5 +36,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "description": "Fun lottery SPA made with React.js ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiosPas/everyday-boatday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiosPas/everyday-boatday/issues"
   }
 }
