@@ -38,18 +38,8 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.15"
   },
   "description": "Fun lottery SPA made with React.js ",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnastasiosPas/everyday-lottoday.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnastasiosPas/everyday-lottoday/issues"
-  },
-  "homepage": "https://github.com/AnastasiosPas/everyday-lottoday#readme"
+  "main": "index.js"
 }
